@@ -1,0 +1,131 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html{
+  height: 100%;
+}
+body {
+	font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	height: 100%;
+	font-weight: 300;
+}
+nav{
+	background-color: #FFFFFF;
+	width: 220px;
+	position: fixed;
+	left: 0;
+	min-height: 100%;
+	border-right: 1px solid #f0f0f0;
+	text-align: right;
+	padding-top: 70px;
+	padding-right: 25px;
+}
+#profilepic{
+	background-image: url(../images/adit_profile_grey.png) ;
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 100px;
+	right: 0px;
+}
+#profile{
+	color: #242728;
+	font-size: 18pt;
+	font-weight: 700;
+	margin-top: 20px;
+	float: right;
+}
+#desprofile{
+	color: #8d9295;
+	font-size: 11pt;
+	font-weight: 300;
+	padding-top: 5px;
+	margin-bottom: 70px;
+}
+.menuitems{
+	margin-top: 10px;
+}
+.menuitems a{
+	color: #8d9295;
+	font-size: 12pt;
+	font-weight: 300;
+	text-decoration: none;
+}
+.social{
+	margin-top: 80px;
+	color: #8d9295;
+}
+.social a{
+	font-size: 10pt;
+	color: #8d9295;
+	font-weight: 300;
+	text-decoration: none;
+}
+.social span a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+nav:hover .menuitems a{
+	color: #242728;
+}
+nav:hover #projects a{
+	color: #c34232;
+}
+nav:hover #profilepic{
+	background-image: url(../images/adit_profile_color.png) ;
+}
+.menuitems:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#effectTesting span
+{
+  text-align: center;
+  font-size: 12pt;
+}
+.container{
+	height: 100%;
+	text-align: center;
+	margin-left: 220px;
+}
+.project{
+	position: relative;
+	text-align: center;
+	padding-top: 70px;
+	padding-left: 100px;
+	float:left;
+}
+.project img {
+	max-height: 151px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.project:hover img{
+	-webkit-box-shadow: 02px 02px 3px 1px rgba(155, 155, 155, .6);
+	-moz-box-shadow: 02px 02px 3px 1px rgba(155, 155, 155, .6);
+	box-shadow: 02px 02px 3px 1px rgba(90, 90, 90, .3);
+}
+.project p{
+	font-size: 12pt;
+	font-weight: 300; 
+	color: #242728;
+	padding-top: 10px;
+}
+.project:hover p{
+	text-decoration: underline;
+	color: #000;
+}
+.headertitle{
+	max-width: 1000px;
+	clear: both;
+	padding-top: 100px;
+}
+.headertitle span{
+	text-align: center;
+	font-size: 12pt;
+	font-weight: 300;
+	color: #575c5f;
+}

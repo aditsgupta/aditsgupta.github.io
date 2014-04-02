@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html{
+  height: 100%;
+}
+body {
+	font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	height: 100%;
+	font-weight: 300;
+}
+nav{
+	background-color: #FFFFFF;
+	width: 220px;
+	position: fixed;
+	left: 0;
+	min-height: 100%;
+	border-right: 1px solid #f0f0f0;
+	text-align: right;
+	padding-top: 70px;
+	padding-right: 25px;
+	z-index: 999;
+	background-color: #FFFFFF
+}
+#profilepic{
+	background-image: url(../images/adit_profile_grey.png) ;
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 100px;
+	right: 0px;
+}
+#profile{
+	color: #242728;
+	font-size: 18pt;
+	font-weight: 700;
+	margin-top: 20px;
+	float: right;
+}
+#desprofile{
+	color: #8d9295;
+	font-size: 11pt;
+	font-weight: 300;
+	padding-top: 5px;
+	margin-bottom: 70px;
+}
+.menuitems{
+	margin-top: 10px;
+}
+.menuitems a{
+	color: #8d9295;
+	font-size: 12pt;
+	font-weight: 300;
+	text-decoration: none;
+}
+.social{
+	margin-top: 80px;
+	color: #8d9295;
+}
+.social a{
+	font-size: 10pt;
+	color: #8d9295;
+	font-weight: 300;
+	text-decoration: none;
+}
+.social span a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+nav:hover .menuitems a{
+	color: #242728;
+}
+nav:hover #about a{
+	color: #c34232;
+}
+nav:hover #profilepic{
+	background-image: url(../images/adit_profile_color.png) ;
+}
+.menuitems:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#effectTesting span
+{
+  text-align: center;
+  font-size: 12pt;
+}
+.container{
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	text-align: center;
+	margin-left: 220px;
+	position: fixed;
+	background-image: url(../images/about_bg_camelride.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.gradientelements{
+	background-image: url(../images/gradient_element_left.png);
+	background-repeat: repeat-y;
+	width: 900px;
+	height: 100%;
+	top: 0;
+	text-align: left;
+	margin-left: 25px;
+	position: absolute;
+}
+#title{
+	color: #FFFFFF;
+	font-size: 15pt;
+	font-weight: 300;
+	margin-top: 70px;	
+	margin-left: 25px;
+
+}
+#description{
+	color: #FFFFFF;
+	font-size: 14pt;
+	font-weight: 300;
+	margin-top: 20px;
+	margin-left: 25px;
+	text-align: justify;
+
+}
+.headertitle{
+	max-width: 1000px;
+	clear: both;
+}
+.headertitle span{
+	text-align: center;
+	font-size: 14pt;
+	font-weight: 300;
+	color: #FFFFFF;
+}
