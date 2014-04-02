@@ -22,6 +22,14 @@ nav{
 	padding-top: 70px;
 	padding-right: 25px;
 }
+#colorprofilepic{
+	background-image: url(../images/adit_profile_color.png) ;
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 100px;
+	display: none;
+	right: 0px;
+}
 #profilepic{
 	background-image: url(../images/adit_profile_grey.png) ;
 	background-repeat: no-repeat;
@@ -98,7 +106,8 @@ nav:hover #profilepic{
 	float:left;
 }
 .project img {
-	max-height: 151px;
+	max-height: 150px;
+	max-width: 200px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;

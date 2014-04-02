@@ -1,6 +1,6 @@
 var captionLength = 0;
 var caption = "";
-var lines = new Array(" a Designer."," a Develeoper."," a UX researcher.", " a Lorem Ipsum... oops ;)", " a Blogger.", " a Dribbbler.");
+var lines = new Array(" a Designer."," a Developer."," a UX researcher.", " Lorem Ipsum... oops ;)", " a Blogger.", " a Dribbbler.");
 var index = 0;
 
 $(document).ready(function()
