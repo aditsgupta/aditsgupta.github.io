@@ -137,3 +137,9 @@ nav:hover #profilepic{
 	font-weight: 300;
 	color: #575c5f;
 }
+
+@media only screen and (max-width: 1130px) {
+#project3 {
+	clear: both;
+}
+}
