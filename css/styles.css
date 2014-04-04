@@ -82,6 +82,10 @@ nav:hover #projects a{
 }
 nav:hover #profilepic{
 	background-image: url(../images/adit_profile_color.png) ;
+	-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .menuitems:hover{
 	text-decoration: underline;
