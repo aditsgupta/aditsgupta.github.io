@@ -21,6 +21,8 @@ nav{
 	text-align: right;
 	padding-top: 70px;
 	padding-right: 25px;
+	z-index: 999;
+	background-color: #FFFFFF
 }
 #colorprofilepic{
 	background-image: url(../images/adit_profile_color.png) ;
@@ -77,7 +79,7 @@ nav{
 nav:hover .menuitems a{
 	color: #242728;
 }
-nav:hover #projects a{
+nav:hover #about a{
 	color: #c34232;
 }
 nav:hover #profilepic{
@@ -95,94 +97,37 @@ nav:hover #profilepic{
 }
 .container{
 	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
 	text-align: center;
 	margin-left: 220px;
+	position: fixed;
+	background-image: url(../images/404image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.project{
-	position: relative;
-	text-align: center;
-	padding-top: 50px;
-	padding-left: 100px;
-	float:left;
+.gradientelements{
+	background-image: url(../images/gradient_element_left.png);
+	background-repeat: repeat-y;
+	width: 900px;
+	height: 100%;
+	top: 0;
+	text-align: left;
+	margin-left: 25px;
+	position: absolute;
 }
-.project img {
-	max-height: 150px;
-	max-width: 200px;
-	padding-top: 20px;
-	-webkit-transition: padding-top 0.6s;
-    -moz-transition: padding-top 0.6s;
-    -o-transition: padding-top 0.6s;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-}
-.project:hover img{
-	padding-top: 15px;
-	-webkit-transition: padding-top 0.3s;
-    -moz-transition: padding-top 0.3s;
-    -o-transition: padding-top 0.3s;
-}
-.project p{
-	font-size: 12pt;
-	font-weight: 300; 
-	color: #242728;
-	padding-top: 10px
-}
-.project:hover p{
-	color: #000;
-}
-.projectyear{
-	color: #8d9295;
-	font-size: 7pt;
-	opacity: 0.0;
-}
-.project:hover .projectyear{
-	opacity: 1.0;
-	-webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-.headertitle{
-	max-width: 1000px;
-	clear: both;
-	padding-top: 100px;
-}
-.headertitle span{
-	text-align: center;
-	font-size: 12pt;
+#title{
+	color: #FFFFFF;
+	font-size: 15pt;
 	font-weight: 300;
-	color: #575c5f;
+	margin-top: 70px;	
+	margin-left: 40px;
+
 }
-.footer{
-	position: relative;
-	text-align: center;
-	padding-top: 100px;
-	padding-left: 100px;
-	margin-bottom: 10px;
-	float:left;
-	font-size: 8pt;
-	color: #8d9295;
-	clear: both;
-}
- .footer a{
- 	font-size: 8pt;
-	color: #8d9295;
-	text-decoration: none;
- }
- .footer a:hover{
- 	text-decoration: underline;
- }
-@media only screen and (min-width: 1131px) {
-#project4 {
-	clear: both;
-}
-}
-@media only screen and (max-width: 1130px) {
-#project3 {
-	clear: both;
-}
-#project5{
-	clear: both;
-}
+#description{
+	color: #FFFFFF;
+	font-size: 14pt;
+	font-weight: 300;
+	margin-top: 20px;
+	margin-left: 40px;
 }
