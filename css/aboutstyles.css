@@ -125,7 +125,7 @@ nav:hover #profilepic{
 	font-size: 12pt;
 	font-weight: 300;
 	margin-top: 70px;	
-	margin-left: 40px;
+	margin-left: 80px;
 
 }
 #description{
@@ -133,18 +133,22 @@ nav:hover #profilepic{
 	font-size: 12pt;
 	font-weight: 300;
 	margin-top: 20px;
-	margin-left: 40px;
+	margin-left: 80px;
 }
 #description p a{
-	text-decoration: underline;
+	text-decoration: none;
 	color: #FFFFFF;
 	font-size: 12pt;
 	font-weight: 300;
 
 }
+#description p a:hover{
+	text-decoration: underline;
+
+}
 .headertitle{
-	bottom: 70px;
-	left: 40px;
+	bottom: 30px;
+	left: 80px;
 	position: absolute;
 	max-width: 1000px;
 	clear: both;

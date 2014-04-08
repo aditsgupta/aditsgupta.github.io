@@ -159,12 +159,10 @@ nav:hover #profilepic{
 	color: #575c5f;
 }
 .footer{
-	position: relative;
+	position: relative;;
 	text-align: left;
-	padding-top: 100px;
+	padding-top: 150px;
 	padding-left: 100px;
-	margin-bottom: 10px;
-	float:left;
 	font-size: 8pt;
 	color: #8d9295;
 	clear: both;
