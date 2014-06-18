@@ -1,0 +1,132 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html{
+  height: 100%;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+	height: 100%;
+}
+#page1{
+	height:100%;
+	min-height: 650px;
+	background-image: url(../images/bg_kayaking.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+#logo{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    margin-bottom: 30px;
+	max-height: 220px;
+	max-width: 220px;
+}
+#page2{
+	height:100%;
+	min-height: 700px;
+	background-color: #ffd34e;
+	overflow: auto;
+	position: relative;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+h1{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 36pt;
+	text-align: center;
+	color: #FFF;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.3),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 8px 13px rgba(0,0,0,0.1);
+    position: relative;
+	top: 10px;
+}
+h2{
+	font-size: 24pt;
+	color: #FFF;
+	font-weight: bold;
+	margin: 10px;
+	text-align: center;
+	position: relative;
+}
+h3{
+	font-size: 15pt;
+	font-weight: 300;
+	text-align: center;
+	color: #FFF;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 8px 13px rgba(0,0,0,0.1);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.viewdemo{
+	text-align: center;
+	width: 100%;
+	padding-top: 40px;
+	margin-bottom: 50px;
+}
+.viewdemo > p {
+	color: #FFFFFF;
+	font-size: 28px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	margin: 10px;
+}
+.viewdemo p a{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 28px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	margin: 10px;
+	border-bottom:1px dashed;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.3),
+             0px 8px 15px rgba(0,0,0,0.1),
+             0px 8px 15px rgba(0,0,0,0.1);
+}
+.viewdemo p a:hover{
+	text-decoration: none;
+	border-bottom:1px solid;}
+.viewdemo p img{
+	max-width: 36px;
+	max-height: 36px;
+	vertical-align: middle;
+}
+.storeicons{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	bottom: 2px;
+}
+#googleplay{
+	width: 280px;
+}
+#appstore{
+	width: 280px;
+}
+video{
+	margin-top: 77px;
+	margin-left: 31px;
+}
+#iphonedemo{
+	background-image: url("../images/whiteiphone5.png");
+	width: 240px;
+	height: 500px;
+	margin: 20px auto;
+	background-size: cover;
+}
