@@ -40,6 +40,10 @@ body {
 	padding: 5px;
 	text-align: center;
 }
+#page1 h1 a{
+	text-decoration: underline;
+	color: #FFF;
+}
 #logo{
 	display: block;
     margin-left: auto;
