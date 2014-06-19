@@ -22,18 +22,9 @@ body {
 	padding-right: 10px;
 	overflow: hidden;
 }
-#logo{
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-    margin-bottom: 30px;
-	max-height: 220px;
-	max-width: 220px;
-}
 #page2{
 	height:100%;
-	min-height: 800px;
+	min-height: 750px;
 	background-color: #ffd34e;
 	overflow: auto;
 	position: relative;
@@ -42,6 +33,21 @@ body {
 	padding-left: 10px;
 	padding-right: 10px;
 	overflow: hidden;
+}
+#page3{
+	height: 80px;
+	background-color: #343026;
+	padding: 5px;
+	text-align: center;
+}
+#logo{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    margin-bottom: 30px;
+	max-height: 220px;
+	max-width: 220px;
 }
 h1{
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -63,20 +69,31 @@ h2{
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.1),
              0px 4px 10px rgba(0,0,0,0.1),
              0px 4px 10px rgba(0,0,0,0.1);
-	margin: 10px;
+	margin: 0 10px;
+	padding-bottom: 15px;
 	text-align: center;
 	position: relative;
 }
 h3{
-	font-size: 15pt;
+	font-size: 14pt;
 	font-weight: 300;
 	text-align: center;
 	color: #FFF;
-	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.3),
              0px 8px 13px rgba(0,0,0,0.1),
              0px 8px 13px rgba(0,0,0,0.1);
-    margin-top: 10px;
-    margin-bottom: 20px;
+    bottom: 20px;
+    width: 100%;
+    margin: 5px auto;
+    position: fixed;
+}
+h4{
+	font-size: 12pt;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	color: #FFF;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.1);
+	margin: 0 20px;
 }
 .viewdemo{
 	text-align: center;
@@ -89,7 +106,7 @@ h3{
 	font-size: 28px;
 	font-weight: 300;
 	letter-spacing: 2px;
-	margin: 10px;
+	margin: 15px;
 }
 .viewdemo p a{
 	text-decoration: none;
@@ -97,7 +114,7 @@ h3{
 	font-size: 28px;
 	font-weight: 300;
 	letter-spacing: 2px;
-	margin: 10px;
+	margin: 15px;
 	border-bottom:1px dashed;
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.3),
              0px 8px 15px rgba(0,0,0,0.1),
@@ -116,13 +133,20 @@ h3{
 	margin: 0 auto;
 	text-align: center;
 	position: relative;
+}
+.storeicons img{
+	width: 280px;
+	margin: 10px 10px 10px 10px;
 	bottom: 2px;
+	transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
 }
-#googleplay{
-	width: 280px;
-}
-#appstore{
-	width: 280px;
+.storeicons img:hover{
+	margin: 0px 10px 20px 10px;
+	transition: 0.2s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
 }
 video{
 	margin-top: 109px;
@@ -148,11 +172,25 @@ table{
 	max-width: 55px;
 	max-height: 55px;
 	padding-top: 100px;
+	padding-bottom: 5px;
 	opacity: 0.7;
 }
 .features img:hover{
 	opacity: 1.0;
 	padding-top: 95px;
-	padding-bottom: 5px;
-	
+	padding-bottom: 10px;
+}
+.twitterbuttons{
+	margin: 0px 40px;
+	position: relative;
+	float: left;
+}
+.bottomlinks{
+	margin: 0px 20px;
+	float: right;
+	position: relative;
+}
+.bottomlinks h4 a{
+	text-decoration: none;
+	color: #FFFFFF;
 }
