@@ -41,7 +41,7 @@ nav{
 	color: #242728;
 	font-size: 18pt;
 	font-weight: 700;
-	margin-top: 20px;
+	margin-top: 10px;
 	float: right;
 	width: 100%;
 }
@@ -56,18 +56,18 @@ nav{
 	margin-top: 10px;
 }
 .menuitems a{
-	color: #8d9295;
+	color: #242728;
 	font-size: 12pt;
-	font-weight: 300;
+	font-weight: 500;
 	text-decoration: none;
 }
 .social{
 	margin-top: 80px;
-	color: #8d9295;
+	color: #242728;
 }
 .social a{
 	font-size: 10pt;
-	color: #8d9295;
+	color: #242728;
 	font-weight: 300;
 	text-decoration: none;
 }
@@ -75,10 +75,7 @@ nav{
 	text-decoration: underline;
 	cursor: pointer;
 }
-nav:hover .menuitems a{
-	color: #242728;
-}
-nav:hover #projects a{
+#projects a{
 	color: #c34232;
 }
 nav:hover #profilepic{
@@ -129,16 +126,17 @@ nav:hover #profilepic{
 }
 .project p{
 	font-size: 12pt;
-	font-weight: 300; 
+	font-weight: 500; 
 	color: #242728;
 	padding-top: 10px
 }
 .project:hover p{
-	color: #000;
+	color: #242728;
+	cursor: pointer;
 }
 .projectyear{
 	color: #8d9295;
-	font-size: 7pt;
+	font-size: 9pt;
 	opacity: 0.0;
 }
 .project:hover .projectyear{
@@ -180,12 +178,18 @@ nav:hover #profilepic{
 #project4 {
 	clear: both;
 }
+#project7 {
+	clear: both;
+}
 }
 @media only screen and (max-width: 1130px) {
 #project3 {
 	clear: both;
 }
 #project5{
+	clear: both;
+}
+#project7{
 	clear: both;
 }
 }
