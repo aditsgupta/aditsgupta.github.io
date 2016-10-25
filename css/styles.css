@@ -50,7 +50,7 @@ nav{
 	color: #8d9295;
 	font-size: 10pt;
 	font-weight: 300;
-	margin-bottom: 70px;
+	margin-bottom: 54px;
 	letter-spacing: 0.6px;
 }
 .menuitems{
@@ -63,7 +63,7 @@ nav{
 	text-decoration: none;
 }
 .social{
-	margin-top: 80px;
+	margin-top: 64px;
 	color: #878787;
 }
 .social a{
@@ -161,22 +161,24 @@ nav:hover #profilepic{
 	font-weight: 300;
 	color: #575c5f;
 }
-.footer{
+.footer h4{
 	position: relative;;
 	text-align: left;
-	padding-top: 150px;
-	padding-left: 100px;
-	font-size: 8pt;
-	color: #8d9295;
+	padding-top: 32px;
+	padding-left: 64px;
+	font-size: 11pt;
 	clear: both;
+	font-weight: 500;
 }
- .footer a{
- 	font-size: 8pt;
-	color: #8d9295;
-	text-decoration: none;
+ .footer h4 a{
+ 	font-size: 11pt;
+ 	font-weight: 500;
+	color: #242728;
+	text-decoration: underline;
  }
  .footer a:hover{
  	text-decoration: underline;
+ 	cursor: pointer;
  }
 @media only screen and (min-width: 1301px) {
 #project5 {
