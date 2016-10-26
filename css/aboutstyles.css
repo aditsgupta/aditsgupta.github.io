@@ -134,6 +134,7 @@ nav:hover #profilepic{
 	font-weight: 500;
 	margin-top: 20px;
 	margin-left: 80px;
+	letter-spacing: .2px;
 }
 #description p a{
 	text-decoration: none;
