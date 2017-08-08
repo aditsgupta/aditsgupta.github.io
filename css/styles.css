@@ -105,7 +105,7 @@ nav:hover #profilepic{
 	position: relative;
 	text-align: center;
 	padding-top: 32px;
-	padding-left: 64px;
+	padding-left: 96px;
 	float:left;
 }
 .project img {
@@ -181,18 +181,13 @@ nav:hover #profilepic{
  	cursor: pointer;
  }
 @media only screen and (min-width: 1301px) {
-#project5 {
-	clear: both;
-}
-#project9 {
+#project4 {
 	clear: both;
 }
 }
 @media only screen and (max-width: 1300px) {
-#project4 {
+#project3 {
 	clear: both;
 }
-#project7{
-	clear: both;
-}
+
 }
