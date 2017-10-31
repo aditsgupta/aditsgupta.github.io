@@ -59,9 +59,9 @@ body {
 	display:inline-block;
 }
 .bottomlinks a:hover{
-	cursor: pointer;
 	font-weight: 700;
 	letter-spacing: 0.04pt;
+	cursor: pointer;
 }
 
 .bottomlinks a::after {
