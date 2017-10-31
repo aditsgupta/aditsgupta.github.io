@@ -56,10 +56,21 @@ body {
 	line-height: 20pt;
 	text-decoration: none;
 	margin: 0 16px;
+	display:inline-block;
 }
 .bottomlinks a:hover{
 	cursor: pointer;
 	font-weight: 700;
+	letter-spacing: 0.04pt;
+}
+
+.bottomlinks a::after {
+    display: block;
+    content: attr(title);
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
 
 
