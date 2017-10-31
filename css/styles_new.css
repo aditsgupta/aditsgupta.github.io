@@ -20,7 +20,7 @@ body {
 	height: 80%;
 }
 
-.parent h2 {
+.parent h1 {
 	font-size: 32pt;
 	font-weight: 900;
 	color: black;
@@ -72,11 +72,3 @@ body {
     overflow: hidden;
     visibility: hidden;
 }
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    body{
-    	-webkit-text-size-adjust: none;
-    }
-}
-
