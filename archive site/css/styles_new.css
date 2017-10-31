@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html{
+  height: 100%;
+  font-size: 12pt;
+}
+body {
+	font-family: 'Lato', Arial, sans-serif;
+	height: 100%;
+	text-align: center;
+	position: relative;
+}
+.parent{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 80%;
+}
+
+.parent h2 {
+	font-size: 32pt;
+	font-weight: 900;
+	color: black;
+	letter-spacing: 0.3pt;
+	margin-bottom: 4px;
+	width: 100%;
+
+}
+.parent h3{
+	font-size: 14pt;
+	font-weight: 400;
+	color: black;
+	letter-spacing: 0.1pt;
+	width: 100%;
+}
+ p{
+	font-size: 12pt;
+	font-weight: 400;
+	color: #aaaaaa;
+	letter-spacing: 0.09pt;
+	line-height: 19pt;
+}
+
+.bottomlinks{
+	margin: 0 auto 8px auto;
+
+}
+.bottomlinks a{
+	font-weight: 400;
+	font-size: 14pt;
+	color: black;
+	letter-spacing: 0.1pt;
+	line-height: 20pt;
+	text-decoration: none;
+	margin: 0 16px;
+}
+.bottomlinks a:hover{
+	cursor: pointer;
+	font-weight: 700;
+}
+
+
