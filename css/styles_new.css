@@ -73,4 +73,10 @@ body {
     visibility: hidden;
 }
 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body{
+    	-webkit-text-size-adjust: none;
+    }
+}
 
