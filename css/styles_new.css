@@ -21,7 +21,7 @@ body {
 }
 
 .parent h1 {
-	font-size: 32pt;
+	font-size: 34pt;
 	font-weight: 900;
 	color: black;
 	letter-spacing: 0.3pt;
@@ -45,7 +45,7 @@ body {
 }
 
 .bottomlinks{
-	margin: 0 auto 8px auto;
+	margin: 0 auto 16px auto;
 
 }
 .bottomlinks a{
@@ -60,15 +60,9 @@ body {
 }
 .bottomlinks a:hover{
 	text-decoration: underline;
-	letter-spacing: 0.00pt;
 	cursor: pointer;
 }
-
-.bottomlinks a::after {
-    display: block;
-    content: attr(title);
-    font-weight: bold;
-    height: 0;
-    overflow: hidden;
-    visibility: hidden;
+.bottomlinks a span{
+	color: #888;
 }
+
