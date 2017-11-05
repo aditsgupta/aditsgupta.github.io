@@ -17,7 +17,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 75%;
+	height: 80%;
 }
 
 .parent h1 {
