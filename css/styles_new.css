@@ -21,7 +21,7 @@ body {
 }
 
 .parent h1 {
-	font-size: 32pt;
+	font-size: 31pt;
 	font-weight: 900;
 	color: black;
 	letter-spacing: 0.3pt;
@@ -75,7 +75,7 @@ body {
 	letter-spacing: 0.1pt;
 	line-height: 20pt;
 	text-decoration: none;
-	margin: 0 12px;
+	margin: 0 8px;
 	display:inline-block;
 
 }
