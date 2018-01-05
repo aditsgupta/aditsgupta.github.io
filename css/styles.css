@@ -97,11 +97,26 @@ body {
 	width: 200px;
 	height: 112px;
 }
+#pdf_version{
+	display: inline-block;
+	width: 600px;
+    margin: 40px 0 0 40px;
+
+}
+#pdf_version a{
+	text-decoration: none;
+	color: black;
+}
+#pdf_version a:hover{
+	text-decoration: underline;
+}
+
 
  p{
-	font-size: 12pt;
+	font-size: 1em;
 	font-weight: 400;
-	color: #aaaaaa;
+	color: black;
+	text-align: left;
 }
 
 .sections{
