@@ -93,7 +93,7 @@ body {
 }
 .project_item video{
 	float: right;
-	filter: opacity(20%);
+	filter: opacity(60%);
 	width: 200px;
 	height: 112px;
 }
