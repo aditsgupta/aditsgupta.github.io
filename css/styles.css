@@ -163,14 +163,14 @@ body {
 	font-weight: 400;
 	margin: 0 0 128px 0;
 	color: black;
-	width: 320px;
+	width: 360px;
 	display: inline-block;
 }
 #about_photo{
 	width: 200px;
 	height: 200px;
 	float: right;
-	margin: 8px 24px;
+	margin: 8px 2px;
 }
 
 
