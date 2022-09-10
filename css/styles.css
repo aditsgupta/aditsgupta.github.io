@@ -88,6 +88,7 @@ body {
 	font-weight: 400;
 	margin-top: 8px;
 	color: black;
+	opacity: 0.6;
 }
 .project_item video{
 	float: right;
