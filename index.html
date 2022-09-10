@@ -31,7 +31,7 @@
 					<p class="project_description"> We built a mobile public transit system for riders, drivers & fleet managers from scratch. Uber Bus made daily commutes accessible, safe & affordable to all. </p>
 				</div>
 
-				<video preload="metadata" >
+				<video preload="metadata" muted="muted">
 	  				<source src="media/UBERBus.mp4" type="video/mp4">
 	  				:(
 				</video>
@@ -43,8 +43,8 @@
 					<p class="project_description">Redesigned Uber for the web which scales across all browser platforms on mobile & destop screens. Try it → </p>
 				</div>
 
-				<video preload="metadata" >
-	  				<source src="media/mDotUBER.mp4" type="video/mp4">
+				<video preload="metadata" muted="muted">
+	  				<source src="media/mDotUBER.mp4" type="video/mp4" muted="muted">
 	  				:(
 				</video>
 			</div> </br>
@@ -55,7 +55,7 @@
 					<p class="project_description">Reimagined Flipkart’s web experience across all core touchpoints like navigation, browse, search, checkout and support. </p>
 				</div>
 
-				<video preload="metadata" >
+				<video preload="metadata" muted="muted">
 	  				<source src="media/WebRedesign.mp4" type="video/mp4">
 	  				:(
 				</video>
@@ -67,11 +67,11 @@
 					<p class="project_description">Enterprise tool that improves KPIs for support and sales teams by automating responses & workflows. (YC W’17) </p>
 				</div>
 
-				<video preload="metadata" >
+				<video preload="metadata" muted="muted">
 	  				<source src="media/Bicycleai.mp4" type="video/mp4">
 	  				:(
 				</video>
-			</div></br>
+			</div> </br>
 
 			<div class="project_item" onmouseover="playVid(4)" onmouseout="pauseVid(4)" onclick="window.open('https://medium.com/@aditsgupta/flipkart-supermart-c32cfb438e02','_blank');">
 				<div class="project_text">
@@ -79,7 +79,7 @@
 					<p class="project_description">A new business launch for groceries in Flipkart to improve units, order value and repeat customers.</p>
 				</div>
 
-				<video preload="metadata" >
+				<video preload="metadata" muted="muted">
 	  				<source src="media/Supermart.mp4" type="video/mp4">
 	  				:(
 				</video>
@@ -91,7 +91,7 @@
 					<p class="project_description">Building a  singular design system for all our mobile platforms to reduce fragmentation & enable cross-platform development.</p>
 				</div>
 
-				<video preload="metadata" >
+				<video preload="metadata" muted="muted">
 	  				<source src="media/Navigation.mp4" type="video/mp4">
 	  				:(
 				</video>
@@ -102,7 +102,7 @@
 					<p class="project_description">Designed the rentals product search and discovery focussed on authentic photos and the Indian customer. </p>
 				</div>
 
-				<video preload="metadata" >
+				<video preload="metadata" muted="muted">
 	  				<source src="media/Housing.mp4" type="video/mp4">
 	  				:(
 				</video>
@@ -143,9 +143,9 @@
 			var v = document.getElementsByTagName("video");
 			function playVid(i) { 
 				v[i].style.filter = "opacity(90%)";
+				v[i].loop = true; 
 	    		v[i].play();
-	    		v[i].loop = true; 
-
+	    		
 			} 
 
 			function pauseVid(i) {
